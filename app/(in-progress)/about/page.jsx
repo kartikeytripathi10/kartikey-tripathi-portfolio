@@ -2,28 +2,19 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { Navbar, Transition } from '@/layout';
-import { Contact } from '@/layout';
+import { Navbar, Transition, Contact } from '@/layout';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i = 1) => ({
     opacity: 1,
     y: 0,
-    transition: {
-      delay: i * 0.15,
-      duration: 0.6,
-      ease: 'easeOut',
-    },
+    transition: { delay: i * 0.15, duration: 0.7, ease: 'easeOut' },
   }),
 };
 
 const stagger = {
-  visible: {
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
+  visible: { transition: { staggerChildren: 0.2 } },
 };
 
 const wordFade = {
@@ -31,10 +22,7 @@ const wordFade = {
   visible: (i) => ({
     opacity: 1,
     y: 0,
-    transition: {
-      delay: i * 0.1,
-      duration: 0.4,
-    },
+    transition: { delay: i * 0.08, duration: 0.5, ease: 'easeOut' },
   }),
 };
 
@@ -49,7 +37,11 @@ export default function About() {
   return (
     <Transition>
       <Navbar />
-      <main className="bg-[#1c1d20] text-white px-8 md:px-20 pt-[13rem] space-y-40">
+      <main className="bg-gradient-to-b from-[#1c1d20] via-[#121315] to-black text-white px-8 md:px-20 pt-[13rem] space-y-40 relative overflow-hidden">
+
+        {/* Decorative Gradient Blobs */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-purple-500 opacity-20 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-500 opacity-20 rounded-full blur-3xl animate-pulse" />
 
         {/* Hero Section */}
         <motion.section
@@ -59,27 +51,28 @@ export default function About() {
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div className="md:w-1/2 space-y-6 text-center md:text-left" variants={stagger}>
-            <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
               {splitWords('Digital designer & developer based in India.')}
             </h1>
-            <motion.p className="text-gray-300 text-lg" variants={fadeUp} custom={3}>
+            <motion.p className="text-gray-400 text-lg" variants={fadeUp} custom={3}>
               I help brands thrive in the digital world by creating tailor-made websites that are both visually appealing and functionally robust.
             </motion.p>
           </motion.div>
 
           <motion.div
-            className="md:w-1/2"
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+            className="md:w-1/2 relative"
+            initial={{ opacity: 0, scale: 0.9, y: 30 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: 'easeOut' }}
             viewport={{ once: true }}
+            whileHover={{ scale: 1.05, rotate: 1 }}
           >
             <Image
               src="/images/last.jpg"
               alt="Profile"
               width={800}
               height={800}
-              className="rounded-xl w-full object-cover"
+              className="rounded-3xl w-full object-cover shadow-2xl"
             />
           </motion.div>
         </motion.section>
@@ -92,10 +85,11 @@ export default function About() {
           viewport={{ once: true }}
           variants={stagger}
         >
-          <motion.h2 className="text-3xl md:text-5xl font-semibold text-center md:text-left" variants={fadeUp}>
+          <motion.h2 className="text-3xl md:text-5xl font-extrabold text-center md:text-left text-white" variants={fadeUp}>
             Capabilities
           </motion.h2>
-          <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+
+          <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
             {[
               {
                 title: 'Design',
@@ -110,12 +104,24 @@ export default function About() {
                 items: ['Figma & Adobe XD', 'Slack / Notion', 'Agile / Scrum', 'Client Workshops'],
               },
             ].map((block, idx) => (
-              <motion.div key={block.title} variants={fadeUp} custom={idx + 1}>
-                <div className="h-[2px] w-12 bg-white mb-4" />
-                <h3 className="text-xl font-semibold mb-2">{block.title}</h3>
-                <ul className="text-gray-300 space-y-1">
+              <motion.div
+                key={block.title}
+                variants={fadeUp}
+                custom={idx + 1}
+                whileHover={{ scale: 1.05 }}
+                className="p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-md transition duration-300 ease-in-out"
+              >
+                <div className="h-[2px] w-20 bg-gradient-to-r from-pink-500 to-purple-500 mb-4" />
+                <h3 className="text-xl font-semibold mb-4">{block.title}</h3>
+                <ul className="text-gray-300 space-y-2">
                   {block.items.map((item, i) => (
-                    <motion.li key={i} variants={fadeUp} custom={i + 2}>
+                    <motion.li
+                      key={i}
+                      variants={fadeUp}
+                      custom={i + 2}
+                      className="hover:text-white transition-colors cursor-pointer"
+                      whileHover={{ scale: 1.05, x: 4 }}
+                    >
                       {item}
                     </motion.li>
                   ))}
@@ -127,27 +133,45 @@ export default function About() {
 
         {/* Awwwards Section */}
         <motion.section
-          className="max-w-6xl mx-auto text-center space-y-6"
+          className="max-w-6xl mx-auto text-center space-y-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <motion.div className="flex justify-center" variants={fadeUp}>
-            <Image
-              src="/images/awwwards.jpg"
-              alt="Awwwards Judge"
-              width={150}
-              height={150}
-              className="mx-auto"
-            />
+          <motion.div
+            className="flex justify-center"
+            variants={fadeUp}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9 }}
+          >
+            <motion.div
+              whileHover={{ rotate: 5, scale: 1.1 }}
+              transition={{ type: 'spring', stiffness: 300 }}
+            >
+              <Image
+                src="/images/awwwards.jpg"
+                alt="Awwwards Judge"
+                width={150}
+                height={150}
+                className="mx-auto rounded-full border-2 border-purple-500 shadow-lg"
+              />
+            </motion.div>
           </motion.div>
-          <motion.p className="text-lg text-gray-300" variants={fadeUp} custom={2}>
-            Awwwards Judge 2019–2025<br />Recognizing excellence in web design and creativity.
+          <motion.p className="text-lg text-gray-400" variants={fadeUp} custom={2}>
+            <span className="text-white font-semibold">Awwwards Judge 2019–2025</span> <br />Recognizing excellence in web design and creativity.
           </motion.p>
         </motion.section>
 
         {/* Contact Section */}
-        <Contact />
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
+          <Contact />
+        </motion.div>
       </main>
     </Transition>
   );

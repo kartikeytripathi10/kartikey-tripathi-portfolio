@@ -18,7 +18,7 @@ export const metadata = {
 export default function Home() {
   return (
     <Transition>
-      <Navbar />
+      <Navbar textColor="text-white" />
       <Header />
       <main>
         <Description />
