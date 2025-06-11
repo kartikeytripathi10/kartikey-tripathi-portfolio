@@ -50,7 +50,12 @@
   "settings": {
     "import/extensions": [".js", ".jsx"],
     "import/resolver": {
-      "alias": true
+      "alias": {
+        "map": [
+        ["@", "./src"]    // <-- Adjust "./src" depending on your folder structure.
+      ],
+      "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   }
 }
