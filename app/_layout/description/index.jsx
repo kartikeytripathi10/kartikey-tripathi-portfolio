@@ -9,7 +9,7 @@ import { MagneticButton, ParallaxFade, ParallaxReveal } from '@/components';
 import { Title, Wrapper } from './index.styled';
 
 const phrase =
-  'Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.';
+  'Designing and developing digital products that push ideas forward. Focused on building purposeful, creative, and effective solutions.';
 
 export function Description() {
   return (
@@ -25,7 +25,7 @@ export function Description() {
           <ParallaxFade>
             <Balancer as='p' className='mt-2 text-base lg:text-lg'>
               The combination of my passion for design, code & interaction
-              positions me in a unique place in the web design world.
+              positions me in a unique place in the world of web development .
             </Balancer>
           </ParallaxFade>
         </div>

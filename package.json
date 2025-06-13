@@ -22,6 +22,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@studio-freight/lenis": "^1.0.29",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
