@@ -3,7 +3,9 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Navbar, Contact, Transition } from '@/layout';
+
+import { Contact, Navbar, Transition } from '@/layout';
+
 import { projects } from '../../_data/wprojects.js';
 
 const fadeUp = {
