@@ -1,6 +1,7 @@
 // app/(in-progress)/contact/page.jsx
+import { Contact, Navbar, Transition } from '@/layout';
+
 import ContactPageClient from './ContactPageClient';
-import { Navbar, Contact, Transition } from '@/layout';
 
 export const metadata = {
   title: 'Contact',

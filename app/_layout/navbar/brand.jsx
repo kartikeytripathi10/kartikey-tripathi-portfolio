@@ -1,7 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import { Copyright } from 'lucide-react';
+import Link from 'next/link';
 
 export function NavbarBrand() {
   return (

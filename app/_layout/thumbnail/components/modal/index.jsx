@@ -1,8 +1,10 @@
 'use client';
 
 import { forwardRef } from 'react';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image'; // ✅ use next/image
+
 import { Center } from '@/components';
 import { thumbnailOptions } from '@/data';
 import { randomId } from '@/utils';
