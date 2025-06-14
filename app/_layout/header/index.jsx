@@ -5,6 +5,7 @@ import { MoveDownRight } from 'lucide-react';
 import Image from 'next/image'; // ✅ Changed import
 
 import { ParallaxSlider } from '@/components';
+
 import { slideUp } from './variants';
 
 export function Header() {

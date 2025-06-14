@@ -67,8 +67,16 @@ export default function About() {
               variants={fadeUp}
               custom={3}
             >
-              I help brands thrive in the digital world by creating tailor-made
-              websites that are both visually appealing and functionally robust.
+              As a Developer, I am passionate about bringing ideas to life
+              through code. I love working with JavaScript and specialize in
+              building engaging, high-performance web applications. My interests
+              lie heavily in web development, creating responsive interfaces and
+              interactive user experiences. I work extensively with frameworks
+              and libraries like Next.js, Tailwind CSS, Motion, and various
+              animation tools to create modern, performant web applications.
+              Eager to grow and collaborate, I am currently looking for
+              opportunities with companies worldwide that value innovation and
+              quality.
             </motion.p>
           </motion.div>
 
@@ -110,28 +118,31 @@ export default function About() {
               {
                 title: 'Design',
                 items: [
-                  'UI/UX Design',
-                  'Web & Mobile Design',
-                  'Wireframing',
-                  'Prototyping',
+                  'HTML / CSS',
+                  'Tailwind CSS',
+                  'Responsive Design',
+                  'Framer Motion',
+                  'UI/UX Principles',
                 ],
               },
               {
                 title: 'Development',
                 items: [
-                  'React / Next.js',
-                  'Tailwind CSS',
-                  'GSAP / Framer Motion',
-                  'Responsive Layouts',
+                  'JavaScript',
+                  'React.js / Next.js',
+                  'Node.js',
+                  'Python',
+                  'API Integrations',
                 ],
               },
               {
-                title: 'Collaboration',
+                title: 'Workflow',
                 items: [
-                  'Figma & Adobe XD',
-                  'Slack / Notion',
-                  'Agile / Scrum',
-                  'Client Workshops',
+                  'Git & GitHub',
+                  'Postman',
+                  'VS Code',
+                  'MySQL',
+                  'Vercel / Netlify',
                 ],
               },
             ].map((block, idx) => (
