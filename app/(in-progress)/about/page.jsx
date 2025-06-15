@@ -205,9 +205,7 @@ export default function About() {
             variants={fadeUp}
             custom={2}
           >
-            <span className='font-semibold text-white'>
-              Awwwards Judge 2019–2025
-            </span>{' '}
+            <span className='font-semibold text-white'>Certificates</span>{' '}
             <br />
             Recognizing excellence in web design and creativity.
           </motion.p>
