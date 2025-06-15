@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: 'SamIdya Restaurant and Cafe Website',
-    slug: 'https://silly-bublanina-89f1ec.netlify.app/',
+    slug: 'https://samidyacafe.netlify.app/',
     image: '/images/samidya.jpg',
     year: '2023',
     service: 'Design & Developed',
