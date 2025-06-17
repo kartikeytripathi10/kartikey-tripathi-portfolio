@@ -20,6 +20,7 @@ const fadeUp = {
     },
   }),
 };
+
 export default function Work() {
   return (
     <Transition>
@@ -61,14 +62,13 @@ export default function Work() {
                 rel='noopener noreferrer'
                 className='relative block'
               >
-                {/* Image */}
-                <div className='relative overflow-hidden rounded-t-xl'>
+                {/* Image Wrapper with aspect-square */}
+                <div className='relative aspect-square overflow-hidden rounded-t-xl'>
                   <Image
                     src={project.image}
                     alt={project.title}
-                    width={800}
-                    height={600}
-                    className='ease-[cubic-bezier(0.4,0,0.2,1)] h-56 w-full object-cover transition-transform duration-700 group-hover:scale-110'
+                    fill
+                    className='ease-[cubic-bezier(0.4,0,0.2,1)] object-cover transition-transform duration-700 group-hover:scale-110'
                   />
                   <div className='absolute inset-0 bg-black/40 transition-colors duration-500 group-hover:bg-black/60' />
                 </div>
