@@ -50,7 +50,7 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
 
 ## ✨ Demo
 
-You can visit and explore portfolio in the [Dennis Snellenberg Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
+You can visit and explore portfolio in the [kartikey tripathi Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
 
 ## 🔥 Features
 
@@ -92,18 +92,5 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🔗 Links
-
-<p>
-  <a href="https://github.com/AliBagheri2079">
-    <img src="https://img.shields.io/badge/Github-000?style=flat&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/alibagheri2079">
-    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/AliBagheri2079">
-    <img src="https://img.shields.io/badge/twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/>
-  </a>
-</p>
 
 <p align="right">(<a href="#top">BACK TO TOP🔝</a>)</p>
