@@ -1,22 +1,22 @@
 export const thumbnailOptions = [
   {
-    href: '/fabric',
-    title: 'FABRIC™',
+    href: 'https://samidyacafe.netlify.app/',
+    title: 'SamIdya Cafe',
     image: 'thumbnail-micdrop-810x810-crop-q72.jpg',
   },
   {
-    href: '/aanstekelijk',
-    title: 'Aanstekelijk',
+    href: 'https://animated-page-ss.netlify.app/',
+    title: 'Animation',
     image: 'thumbnail-chainn.jpg',
   },
   {
-    href: '/base-create',
-    title: 'Base Create',
+    href: 'https://rockpaperscissorss22.netlify.app/',
+    title: 'Game',
     image: 'thumbnail-atypikal.jpg',
   },
   {
-    href: '/avvr',
-    title: 'AVVR',
+    href: 'https://github.com/kartikeytripathi10/ai-medical-diagnosis',
+    title: 'AI Medical',
     image: 'thumbnail-tapsody-v5-810x810-crop-q72.jpg',
   },
 ];
