@@ -1,6 +1,6 @@
 /** @type {import('next').Metadata} */
 export const rootMetadata = {
-  metadataBase: new URL('https://dennis-snellenberg-portfolio.vercel.app/'),
+  metadataBase: new URL('https://www.kartikeytripathi.com'),
   title: {
     template: '%s | Kartikey Tripathi',
     default: 'Kartikey Tripthi • Full Stack Developer',
