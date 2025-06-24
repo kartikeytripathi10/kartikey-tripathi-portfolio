@@ -1,96 +1,71 @@
-<div id='top' align="center">
 
-An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and [Framer Motion](https://www.framer.com/motion/). Styled with [Tailwind CSS](https://tailwindcss.com/). This is one of my portfolios, but I would be pleased if these codes helped others, so I published it as an open-source project. feel free to explore it, and if you need help, ask me. I would respond as soon as possible.
+# Kartikey Tripathi Portfolio
 
-<p>
-  To support me, please create
-  <strong>Pull request</strong>
-  and give <strong>star⭐</strong>
-  to this repository.
-  <br/>
-  I appreciate your support in advance. ❤
-</p>
+Helping brands thrive in the digital world. Delivering tailor-made digital designs and building interactive websites from scratch.  
+© Code by Kartikey
 
-<p>
+## 🌐 Live Demo
 
-![GitHub top language](https://img.shields.io/github/languages/top/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub last commit](https://img.shields.io/github/last-commit/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AliBagheri2079/dennis-snellenberg-portfolio?display_name=tag)&nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/AliBagheri2079/dennis-snellenberg-portfolio?color=yellow)&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/AliBagheri2079/dennis-snellenberg-portfolio)
+> www.kartikeytripathi.com
 
-</p>
+## 📦 Tech Stack
 
-<p>
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Linting & Formatting:** ESLint, Prettier, Stylelint
+- **Git Hooks:** Husky + Lint-staged
+- **Package Manager:** npm / pnpm
 
-[Technologies](#-technologies) •
-[Demo](#-demo) •
-[Features](#-features) •
-[Pages](#-pages) •
-[Contributing](#-contributing) •
-[Links](#-links)
+## 🚀 Getting Started
 
-</p>
+To run this project locally:
 
-<img
-  src="./public/screen-record.gif"
-  loading="lazy"
-  alt="home page screenshot"
-/>
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/kartikey-tripathi-portfolio.git
+cd kartikey-tripathi-portfolio
+```
 
-</div>
+### 2. Install dependencies
+```bash
+npm install
+```
 
-## 🔧 Technologies
+### 3. Run the development server
+```bash
+npm run dev
+```
 
-![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=for-the-badge&logo=next.js)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
-![Framer Motion](https://img.shields.io/badge/-FramerMotion-05122A?style=for-the-badge&logo=framer)&nbsp;
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-05122A?style=for-the-badge&logo=tailwindCSS&logoColor=06B6D4)
+Visit `http://localhost:3000` in your browser.
 
-## ✨ Demo
+## 🛠️ Available Scripts
 
-You can visit and explore portfolio in the [kartikey tripathi Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
+- `npm run dev` – Run the development server
+- `npm run build` – Create a production build
+- `npm run start` – Start the production server
+- `npm run lint` – Lint the codebase
+- `npm run prepare` – Prepare hooks with Husky
 
-## 🔥 Features
+## ✨ Features
 
-- Using Next.js Cloudinary
-- Using Framer Motion
-- Using Gsap with Lenis
-- Using React Wrap Balancer
-- Using Styled Component
-- Using Tailwindcss with Custom Plugin
-- Using Postcss with Plugins
-- Using Clsx with twMerge
-- Fully responsive
-- Page Transition with Smooth Scrolling
-- Linting with Eslint and Stylelint
-- Format with Prettier
-- Husky and Lint-staged for Pre-committing
-- Pnpm Package Manager
+- Fully responsive design
+- Animated UI components
+- Custom project sections
+- Dark/light theme ready (if implemented)
+- SEO & accessibility considerations
 
-## 📃 Pages
+## 📁 Project Structure
 
-- Main (index)
-- About
-- Contact
-- Work
-- Custom Not Found Page
+```
+.
+├── app/                 # Next.js 13+ app directory
+├── public/              # Static assets
+├── styles/              # Global CSS or Tailwind configs
+├── .eslintrc.json       # ESLint config
+├── tailwind.config.js   # Tailwind customization
+└── package.json         # Project metadata and scripts
+```
 
-<p align="right">(<a href="#top">BACK TO TOP 🔝</a>)</p>
+## 🧾 License
 
-## 🤝 Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-<p align="right">(<a href="#top">BACK TO TOP🔝</a>)</p>
+This project is licensed under the [MIT License](LICENSE) – feel free to use and modify it.
