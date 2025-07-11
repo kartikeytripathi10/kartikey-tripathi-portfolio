@@ -15,7 +15,7 @@ export const thumbnailOptions = [
     image: 'thumbnail-atypikal.jpg',
   },
   {
-    href: 'https://github.com/kartikeytripathi10/ai-medical-diagnosis',
+    href: 'https://ai-medical-diagnosis-five.vercel.app/',
     title: 'AI Medical',
     image: 'thumbnail-tapsody-v5-810x810-crop-q72.jpg',
   },
