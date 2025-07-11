@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     title: 'AI Medical Diagnosis',
-    slug: 'https://github.com/kartikeytripathi10/ai-medical-diagnosis',
+    slug: 'https://ai-medical-diagnosis-five.vercel.app/',
     image: '/images/project 4.jpg',
     year: '2024',
     service: 'Design & Developed',
