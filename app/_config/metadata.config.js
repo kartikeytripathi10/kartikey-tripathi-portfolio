@@ -6,7 +6,7 @@ export const rootMetadata = {
     default: 'Kartikey Tripthi • Full Stack Developer',
   },
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Kartikey',
+    'Helping brands thrive in the digital world. Located in The India. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Kartikey',
   generator: 'Kartikey Tripathi',
   applicationName: 'Kartikey Tripathi',
   referrer: 'origin-when-cross-origin',
@@ -20,7 +20,7 @@ export const rootMetadata = {
     card: 'summary_large_image',
     title: 'Kartikey Tripathi',
     description:
-      'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Kartikey',
+      'Helping brands thrive in the digital world. Located in The India. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Kartikey',
     siteId: '1467726470533754880',
     creator: '@AliBagheri2079',
     creatorId: '1467726470533754880',
