@@ -3,14 +3,14 @@ export const projects = [
     title: '3D Bee',
     slug: 'https://3d-animation-page-ss.netlify.app/',
     image: '/images/project 5.jpg',
-    year: '2024',
+    year: '2025',
     service: 'Design & Developed',
   },
   {
     title: '3D Bee',
     slug: 'https://3d-animation-page-ss.netlify.app/',
     image: '/images/project 5.jpg',
-    year: '2024',
+    year: '2025',
     service: 'Design & Developed',
   },
   {
