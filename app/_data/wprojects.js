@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: '3D Bee',
-    slug: 'https://3d-animation-page-ss.netlify.app/',
+    title: 'Voice Enabled Chatbot',
+    slug: 'https://voice-enabled-chatbot22.vercel.app/',
     image: '/images/project 5.jpg',
     year: '2025',
     service: 'Design & Developed',
