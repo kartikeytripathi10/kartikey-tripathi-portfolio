@@ -14,6 +14,13 @@ export const projects = [
     service: 'Design & Developed',
   },
   {
+    title: '3D Bee',
+    slug: 'https://3d-animation-page-ss.netlify.app/',
+    image: '/images/project 5.jpg',
+    year: '2024',
+    service: 'Design & Developed',
+  },
+  {
     title: 'Animated Pages',
     slug: 'https://animated-page-ss.netlify.app/',
     image: '/images/project 6.jpg',
