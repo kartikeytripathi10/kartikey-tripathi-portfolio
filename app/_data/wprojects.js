@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Voice Enabled Chatbot',
     slug: 'https://voice-enabled-chatbot22.vercel.app/',
-    image: '/images/project 5.jpg',
+    image: '/images/project 7.jpg',
     year: '2025',
     service: 'Design & Developed',
   },
