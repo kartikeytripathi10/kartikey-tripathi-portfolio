@@ -7,8 +7,8 @@ export const projects = [
     service: 'Design & Developed',
   },
   {
-    title: '3D Bee',
-    slug: 'https://3d-animation-page-ss.netlify.app/',
+    title: 'Travel AI Budget Calculator',
+    slug: 'https://travel-ai-budget-calculator.netlify.app/',
     image: '/images/project 5.jpg',
     year: '2025',
     service: 'Design & Developed',
