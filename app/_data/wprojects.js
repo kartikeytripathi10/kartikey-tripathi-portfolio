@@ -9,7 +9,7 @@ export const projects = [
   {
     title: 'Travel AI Budget Calculator',
     slug: 'https://travel-ai-budget-calculator.netlify.app/',
-    image: '/images/project 5.jpg',
+    image: '/images/project 8.jpg',
     year: '2025',
     service: 'Design & Developed',
   },
